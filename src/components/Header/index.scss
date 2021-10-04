@@ -1,0 +1,40 @@
+.header-section-parent {
+  //   box-shadow: 0px 11px 6px #0000000d;
+  .header-section {
+    // padding: 35px 138px 28px 138px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+      rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+      rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    .left-section {
+      width: 461px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .right-section {
+      color: var(--green);
+      font-size: 77px;
+      font-weight: 600;
+      //   position: absolute;
+      //   right: 178px;
+      //   top: -37px;
+    }
+  }
+  .navigation {
+    text-transform: uppercase;
+    color: var(--green);
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .selected-nav {
+    text-transform: uppercase;
+    color: var(--white);
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: var(--green);
+  }
+}
